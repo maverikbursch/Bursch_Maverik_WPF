@@ -1,6 +1,8 @@
-// Defining Variables
+// Expressions - Arithmetic Operators
 
-var age;
-age = 25;
+//area of the triangle is half the width time the height
 
-var yearOfBirth = 1988;
+var width = 4;
+var height = 5;
+var area = width * height/2;
+console.log(area);
