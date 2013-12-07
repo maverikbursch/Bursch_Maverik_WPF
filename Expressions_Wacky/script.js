@@ -1,18 +1,25 @@
-//Bursch, Maverik Date: 05 December, 2013 
+//Bursch, Maverik Date: 06 December, 2013 
 
-var bullet1 = prompt("This will calcualte the average bullet overall length of your test lot. \nPlease enter the first bullet OAL:");
-var bullet2 = prompt("Please enter the second bullet OAL:");
-var bullet3 = prompt("Please enter the third bullet OAL:");
-var bullet4 = prompt("Please enter the fourth bullet OAL:");
-var bullet5 = prompt("Please enter the fifth bullet OAL:"); 
+alert("Enter how many miles you've ran each day. \nEXAMPLE: 4.5, 2.1, 3");
 
-var average = (Number(bullet1) + Number(bullet2) + Number(bullet3) + Number(bullet4) + Number(bullet5))/5;
+var monday = prompt("Enter your distance ran for Monday:"); //user input
+var tuesday = prompt("Enter your distance ran for Tuesday:"); //user input
+var wednesday = prompt("Enter your distance ran for Wednesday:"); //user input
+var thursday = prompt("Enter your distance ran for Thursday:"); //user input
+var friday = prompt("Enter your distance ran for Friday:"); //user input
+var saturday = prompt("Enter your distance ran for Saturday:"); //user input
+var sunday = prompt("Enter your distance ran for Sunday:"); //user input
 
-alert("Your average OAL for this lot is: " + average + " inches");
+var average = (Number(monday) + Number(tuesday) + Number(wednesday) + Number(thursday) + Number(friday) + Number(saturday) + Number(sunday))/7;
 
-console.log(bullet1);
-console.log(bullet2);
-console.log(bullet3);
-console.log(bullet4);
-console.log(bullet5);
+alert("The average distance you've ran this week is: " + average + " miles"); //alerts the user of the average disntance ran in a 7 day period.
+
+console.log(monday);
+console.log(tuesday);
+console.log(wednesday);
+console.log(thursday);
+console.log(friday);
+console.log(saturday);
+console.log(sunday);
+
 console.log(average);
