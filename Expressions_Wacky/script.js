@@ -1,4 +1,4 @@
-//Bursch, Maverik Date: 06 December, 2013 
+//Bursch, Maverik Date: 05 December, 2013 
 
 var bullet1 = prompt("This will calcualte the average bullet overall length of your test lot. \nPlease enter the first bullet OAL:");
 var bullet2 = prompt("Please enter the second bullet OAL:");
