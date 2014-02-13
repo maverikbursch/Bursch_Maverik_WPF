@@ -1,5 +1,5 @@
 //Bursch, Maverik Date: 12 February, 2014
-alert("Please enter only numerical values without dollar signs or punctuation. EXAMPLE: '1525' ");
+alert("Please enter only numerical values without dollar signs or decimals. EXAMPLE: '1525' ");
 
 var checkingAccount = prompt("Please enter the amount in your checking account:"); //Checking Account Balance
 var savingsAccount = prompt("Please enter the amount in your savings account:"); //Savings Account Balance
@@ -11,10 +11,10 @@ var total = (Number(checkingAccount) + Number(savingsAccount) + Number(cashOnHan
 
 alert("You current balance is: $" + total + " USD"); //Alert to show user. 
 
-console.log(checkingAccount);
-console.log(savingsAccount);
-console.log(cashOnHand);
+console.log(checkingAccount); //console.log print out for entered data.
+console.log(savingsAccount); //console.log print out for entered data.
+console.log(cashOnHand); //console.log print out for entered data.
 
 console.log(outgoingBills);
 
-console.log(total);
+console.log(total); //console.log for sum of entered data. 
