@@ -23,3 +23,5 @@ console.log(saturday); //console.log print out: saturday
 console.log(sunday); //console.log print out: sunday
 
 console.log(average); //console.log print out: average
+console.log("Done."); //console.log printout shows the script is complete. 
+
