@@ -18,3 +18,4 @@ console.log(cashOnHand); //console.log print out for entered data.
 console.log(outgoingBills);
 
 console.log(total); //console.log for sum of entered data. 
+console.log("Done."); //console.log printout shows the script is complete. 
