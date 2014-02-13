@@ -14,12 +14,12 @@ var average = (Number(monday) + Number(tuesday) + Number(wednesday) + Number(thu
 
 alert("The average distance you've ran this week is: " + average + " miles"); //alerts the user of the average disntance ran in a 7 day period.
 
-console.log(monday);
-console.log(tuesday);
-console.log(wednesday);
-console.log(thursday);
-console.log(friday);
-console.log(saturday);
-console.log(sunday);
+console.log(monday); //console.log print out: monday
+console.log(tuesday); //console.log print out: tuesday
+console.log(wednesday); //console.log print out: wednesday
+console.log(thursday); //console.log print out: thursday
+console.log(friday); //console.log print out: friday
+console.log(saturday); //console.log print out: saturday
+console.log(sunday); //console.log print out: sunday
 
-console.log(average);
+console.log(average); //console.log print out: average
