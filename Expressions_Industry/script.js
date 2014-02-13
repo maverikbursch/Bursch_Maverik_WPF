@@ -16,3 +16,4 @@ console.log(bullet3); //console.log printout B3
 console.log(bullet4); //console.log printout B4
 console.log(bullet5); //console.log printout B5
 console.log(average); //console.log printout average
+console.log("Done."); //console.log printout shows the script is complete. 
